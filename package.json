@@ -1,0 +1,25 @@
+{
+  "name": "@manmonthw/termux-openclaw-android",
+  "version": "1.0.0",
+  "description": "Claude Code skill: Install Termux + OpenClaw on Android and connect to WhatsApp (with China GFW bypass)",
+  "keywords": [
+    "claude-code-skill",
+    "termux",
+    "openclaw",
+    "android",
+    "whatsapp",
+    "gfw",
+    "proxy"
+  ],
+  "claude": {
+    "type": "skill",
+    "name": "termux-openclaw-android",
+    "description": "Install Termux and OpenClaw on Android (Xiaomi/MIUI), fix koffi ARM64 native module, configure Z.ai GLM models, and connect WhatsApp with GFW bypass via ADB port-forward + Node.js proxy injection. Use when user wants to set up OpenClaw on an Android phone, especially in China.",
+    "entrypoint": "skill.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manmonthW/termux-openclaw-android"
+  },
+  "license": "MIT"
+}
